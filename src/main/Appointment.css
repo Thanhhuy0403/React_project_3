@@ -1,0 +1,51 @@
+.appointment {
+    margin-top: 170px;
+}
+
+.appointment .container {
+    background: #f6fbff;
+    padding-bottom: 100px;
+}
+
+.appointment .title {
+    position: relative;
+    padding-top: 100px;
+    color: #10375c;
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 120%; /* 120% */
+    letter-spacing: -1px;
+}
+
+.appointment .title::after {
+    position: absolute;
+    content: "";
+    width: 136px;
+    height: 2px;
+    flex-shrink: 0;
+    background: #2e80ce;
+    bottom: -18px;
+    left: 517px;
+}
+
+.appointment .desc {
+    margin-top: 38px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 53%;
+    color: #575f66;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 175%; /* 175% */
+}
+
+.appointment .btn-appointment {
+    display: block;
+    width: 205px;
+    padding: 16px 48px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 38px;
+}

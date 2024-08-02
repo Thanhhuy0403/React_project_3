@@ -1,0 +1,46 @@
+.install-app {
+    margin-top: 265px;
+}
+
+.install-app .container {
+    border-radius: 4px;
+    background: #2e80ce;
+    position: relative;
+}
+
+.install-app .info {
+    margin-left: 40%;
+    width: 50%;
+}
+
+.install-app .info .title {
+    padding-top: 76px;
+    color: #fff;
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 120%; /* 120% */
+    letter-spacing: -1px;
+}
+
+.install-app .info .sub-title {
+    margin-top: 18px;
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 166.667%; /* 166.667% */
+}
+
+.install-app .info .contact {
+    margin-top: 38px;
+    padding-bottom: 75px;
+}
+
+.install-app .info .contact a + a {
+    margin-left: 28px;
+}
+
+.install-app .image {
+    position: absolute;
+    bottom: 0;
+    left: 70px;
+}

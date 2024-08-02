@@ -1,0 +1,83 @@
+.Work {
+    margin-top: 170px;
+    background: #f6fbff;
+}
+
+.Work .title {
+    padding-top: 100px;
+    color: #10375c;
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 120%; /* 120% */
+    letter-spacing: -1px;
+}
+
+.Work .sub-title {
+    width: 40%;
+    margin-top: 18px;
+    color: #575f66;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 166.667%; /* 166.667% */
+}
+
+.Work .list-item {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    padding-bottom: 100px;
+}
+
+.Work .item {
+    width: 338px;
+    padding: 43px 42px 43px 42px;
+    border: solid 16px #eaf6ff;
+    background-color: #fff;
+}
+
+.Work .item img {
+    width: 72px;
+    height: 72px;
+    flex-shrink: 0;
+}
+
+.Work .item h3 {
+    margin-top: 18px;
+    color: #10375c;
+    font-size: 2.6rem;
+    font-weight: 600;
+    line-height: 138.462%; /* 138.462% */
+}
+
+.Work .item p {
+    margin-top: 28px;
+    color: #575f66;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 175%; /* 175% */
+}
+
+.Work .item a {
+    display: inline-block;
+    margin-top: 18px;
+    color: #575f66;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 175%; /* 175% */
+}
+
+.Work .item:hover {
+    transition: 0.2s;
+    border-radius: 4px;
+    border: solid 16px #2e80ce;
+    margin-bottom: 16px;
+    margin-top: -16px;
+}
+
+.Work .item:hover a {
+    transition: 0.2s;
+    color: #2e80ce;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 175%; /* 175% */
+}

@@ -1,0 +1,129 @@
+.event {
+    margin-top: 170px;
+}
+
+.event .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.event .title {
+    color: #10375c;
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 120%; /* 120% */
+    letter-spacing: -1px;
+}
+
+.event .info > a {
+    display: inline-block;
+    margin-top: 28px;
+    color: #10375c;
+    font-family: Inter;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 155.556%; /* 155.556% */
+}
+
+.event .info > a:hover {
+    text-decoration: underline;
+}
+
+.event .info .action {
+    margin-top: 28px;
+}
+
+.event .info .action svg + svg {
+    margin-left: 18px;
+}
+
+.event .info .action svg:hover path {
+    stroke: #fff;
+}
+
+.event .info .action svg:hover circle {
+    stroke: none;
+}
+
+.event .info .action svg:hover {
+    fill: #2e80ce;
+}
+
+.event .list-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.event .list-item .item {
+    width: 270px;
+    margin-left: 30px;
+    border-radius: 12px;
+    border: 1px solid #e8ebee;
+    background: #fff;
+    overflow: hidden;
+}
+
+.event .list-item .item .image {
+    width: 270px;
+    height: 172px;
+    flex-shrink: 0;
+    border-radius: 12px 12px 0px 0px;
+    /* background: url(<path-to-image>), lightgray -2px -4.032px / 100.741% 104.688% no-repeat; */
+    overflow: hidden;
+}
+
+.event .list-item .item .image img {
+    display: block;
+    width: 270px;
+    height: 172px;
+    flex-shrink: 0;
+    /* background: url(<path-to-image>), lightgray -2px -4.032px / 100.741% 104.688% no-repeat; */
+}
+
+.event .list-item .item .element {
+    margin: 18px 22px 21px 22px;
+}
+
+.event .list-item .item .desc {
+    color: #10375c;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 162.5%; /* 162.5% */
+}
+
+.event .list-item .item .sub-desc {
+    margin-top: 10px;
+    color: #575f66;
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 171.429%; /* 171.429% */
+}
+
+.event .list-item .item .element a {
+    display: inline-block;
+    margin-top: 12px;
+    color: #10375c;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.event .list-item .item:hover {
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0px 18px 50px 0px rgba(0, 0, 0, 0.05);
+    border: none;
+}
+
+.event .list-item .item:hover img {
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+
+.event .list-item .item:hover a {
+    color: #2e80ce;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: normal;
+}

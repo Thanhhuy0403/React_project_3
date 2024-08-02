@@ -1,0 +1,169 @@
+.footer {
+    margin-top: 170px;
+    background: #10375c;
+}
+
+.footer .container {
+    padding-top: 100px;
+}
+
+.footer .item .desc {
+    margin-top: 21px;
+    color: #a9b3bb;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 175%; /* 175% */
+}
+
+.footer .list-item {
+    display: flex;
+}
+
+.footer .item-1 .desc {
+    margin-top: 21px;
+    color: #a9b3bb;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 175%; /* 175% */
+    width: 336px;
+}
+
+.footer .item-2 p,
+.item-3 p {
+    margin-bottom: 15px;
+    color: #fff;
+    font-family: Open Sans;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 175%; /* 175% */
+}
+
+.footer .item-2,
+.item-3 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 78px;
+    width: 140px;
+}
+
+.footer .item-4 {
+    width: 332px;
+    margin-left: auto;
+}
+
+.footer .item-2 .element a,
+.item-3 .element a {
+    margin-bottom: 10px;
+    display: block;
+    color: #a9b3bb;
+    font-family: Open Sans;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 185.714%; /* 185.714% */
+}
+
+.footer .element a:hover {
+    transition: 0.4s;
+    text-decoration: underline;
+}
+
+.footer .item-4 > p {
+    color: #fff;
+    font-family: Open Sans;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 175%; /* 175% */
+}
+
+.footer .item-4 .element {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer .item-4 .element a {
+    margin-left: 5px;
+}
+
+.footer .item-4 .element a:hover circle {
+    transition: 0.3s;
+    fill: #2e80ce;
+}
+
+.footer .item-4 .element a:hover path {
+    transition: 0.3s;
+    fill: #fff;
+}
+
+.footer .item-4 .element .desc {
+    color: #a9b3bb;
+    font-family: Open Sans;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 185.714%; /* 185.714% */
+}
+
+.footer .action {
+    display: flex;
+    gap: 12px;
+}
+
+.footer .action input {
+    width: 212px;
+    height: 46px;
+    border-radius: 4px;
+    border: 1px solid #406181;
+    background-color: transparent;
+    outline: none;
+
+    color: #fff;
+    font-family: Open Sans;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 185.714%;
+    padding: 10px;
+}
+
+.footer .action input::placeholder {
+    color: #9ca8b1;
+    font-family: Open Sans;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 185.714%; /* 185.714% */
+}
+
+.footer .action .btn {
+    width: 108px;
+    padding: 9px 14px;
+    border-radius: 4px;
+    background: #2e80ce;
+
+    color: #fff;
+    font-family: Open Sans;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 185.714%;
+}
+
+.footer .container > .desc {
+    position: relative;
+    color: #aab3ba;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 185.714%; /* 185.714% */
+    padding-top: 57px;
+    padding-bottom: 42px;
+}
+
+.footer .container > .desc::before {
+    position: absolute;
+    content: "";
+    width: 1170px;
+    height: 1px;
+    flex-shrink: 0;
+    background-color: #406181;
+    top: 28px;
+    left: 0;
+}

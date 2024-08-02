@@ -1,0 +1,102 @@
+.services {
+    margin-top: 170px;
+}
+
+.services .title {
+    color: #10375c;
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 120%; /* 120% */
+    letter-spacing: -1px;
+}
+
+.services .sub-title {
+    margin-top: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    color: #575f66;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 166.667%; /* 166.667% */
+}
+
+.services .row > img {
+    width: 570px;
+    height: 570px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    /* background: url(<path-to-image>), lightgray 0px -1.3px / 100% 149.93% no-repeat; */
+}
+
+.services .row {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.services .row .list-item {
+    margin-left: 130px;
+}
+
+.services .row .list-item .btn {
+    display: inline-block;
+    margin-top: 55px;
+    width: 205px;
+    border-radius: 30px;
+    flex-shrink: 0;
+    padding: 16px 15px;
+}
+
+.services .row .item {
+    padding: 21px 18px 20px 22px;
+    display: flex;
+    align-items: center;
+}
+
+.services .row .item .desc {
+    color: #10375c;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.services .row .item .sub-desc:hover {
+    transition: 0.3s;
+    background-color: rgb(150, 206, 243);
+}
+
+.services .row .item .sub-desc {
+    margin-top: 8px;
+    color: #575f66;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 175%; /* 175% */
+}
+
+.services .row .item:hover {
+    transition: 0.4s;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0px 14px 28px 0px rgba(0, 0, 0, 0.05);
+}
+
+.services .row .item:hover .teeth {
+    transition: 0.4s;
+    fill: #2e80ce;
+}
+
+.services .row .item:hover .tooth {
+    transition: 0.4s;
+    fill: #ffffff !important;
+}
+
+.services .list-item .btn-services {
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 166.667%; /* 166.667% */
+}

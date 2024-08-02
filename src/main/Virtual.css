@@ -1,0 +1,92 @@
+.virtual {
+    margin-top: 236px;
+}
+
+.virtual .title {
+    color: #10375c;
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 120%; /* 120% */
+    letter-spacing: -1px;
+}
+
+.virtual .btn-virtual {
+    display: block;
+    width: 205px;
+    padding: 16px 13px;
+    margin-top: 38px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.virtual .list-item {
+    margin-top: 70px;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.virtual .item .image {
+    width: 270px;
+    height: 318px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: #eaf6ff;
+    padding-top: 28px;
+    overflow: hidden;
+}
+
+.virtual .list-item .item .image:hover img {
+    transform: scale(1.1);
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.virtual .item {
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    height: 384px;
+    overflow: hidden;
+}
+
+.virtual .item .name {
+    margin-top: 12px;
+    color: #10375c;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 175%; /* 175% */
+}
+
+.virtual .item .desc {
+    color: #575f66;
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 185.714%; /* 185.714% */
+}
+
+.virtual .action {
+    width: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 38px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.virtual .action svg:hover path {
+    transition: 0.3s;
+    stroke: #fff;
+}
+
+.virtual .action svg:hover circle {
+    transition: 0.3s;
+    stroke: none;
+}
+
+.virtual .action svg:hover {
+    transition: 0.3s;
+    fill: #2e80ce;
+}
